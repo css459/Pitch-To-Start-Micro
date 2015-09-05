@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		494C27351B9B6F7400FD90CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C27341B9B6F7400FD90CF /* AppDelegate.swift */; };
-		494C27371B9B6F7400FD90CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C27361B9B6F7400FD90CF /* ViewController.swift */; };
 		494C273A1B9B6F7400FD90CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494C27381B9B6F7400FD90CF /* Main.storyboard */; };
 		494C273C1B9B6F7400FD90CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494C273B1B9B6F7400FD90CF /* Images.xcassets */; };
 		494C273F1B9B6F7400FD90CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494C273D1B9B6F7400FD90CF /* LaunchScreen.xib */; };
 		494C274B1B9B6F7400FD90CF /* Pitch_To_Start_MicroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C274A1B9B6F7400FD90CF /* Pitch_To_Start_MicroTests.swift */; };
+		494C27551B9B705A00FD90CF /* AccessCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C27541B9B705A00FD90CF /* AccessCodeViewController.swift */; };
+		494C27571B9B72EC00FD90CF /* NewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C27561B9B72EC00FD90CF /* NewQuestionViewController.swift */; };
+		494C27591B9B74B100FD90CF /* AudienceQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C27581B9B74B100FD90CF /* AudienceQuestionViewController.swift */; };
+		494C275B1B9B74C500FD90CF /* CommunicationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C275A1B9B74C500FD90CF /* CommunicationsManager.swift */; };
+		494C275D1B9B833D00FD90CF /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C275C1B9B833D00FD90CF /* ColorPalette.swift */; };
+		79C5A9D295E582486A341367 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20652EE7E6BC738554E5AB5F /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20652EE7E6BC738554E5AB5F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		494C272F1B9B6F7400FD90CF /* Pitch To Start Micro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch To Start Micro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494C27331B9B6F7400FD90CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494C27341B9B6F7400FD90CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		494C27361B9B6F7400FD90CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		494C27391B9B6F7400FD90CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		494C273B1B9B6F7400FD90CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		494C273E1B9B6F7400FD90CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		494C27441B9B6F7400FD90CF /* Pitch To Start MicroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch To Start MicroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494C27491B9B6F7400FD90CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494C274A1B9B6F7400FD90CF /* Pitch_To_Start_MicroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_To_Start_MicroTests.swift; sourceTree = "<group>"; };
+		494C27541B9B705A00FD90CF /* AccessCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessCodeViewController.swift; sourceTree = "<group>"; };
+		494C27561B9B72EC00FD90CF /* NewQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewQuestionViewController.swift; sourceTree = "<group>"; };
+		494C27581B9B74B100FD90CF /* AudienceQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudienceQuestionViewController.swift; sourceTree = "<group>"; };
+		494C275A1B9B74C500FD90CF /* CommunicationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationsManager.swift; sourceTree = "<group>"; };
+		494C275C1B9B833D00FD90CF /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		B96B02E631ACFA82E4C939E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C299522CB85162E887E2524C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C5A9D295E582486A341367 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FE24966E5E80E22A3E50A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20652EE7E6BC738554E5AB5F /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		494C27261B9B6F7400FD90CF = {
 			isa = PBXGroup;
 			children = (
 				494C27311B9B6F7400FD90CF /* Pitch To Start Micro */,
 				494C27471B9B6F7400FD90CF /* Pitch To Start MicroTests */,
 				494C27301B9B6F7400FD90CF /* Products */,
+				78535283ECB5A42557791533 /* Pods */,
+				1FE24966E5E80E22A3E50A85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				494C27341B9B6F7400FD90CF /* AppDelegate.swift */,
-				494C27361B9B6F7400FD90CF /* ViewController.swift */,
+				494C275C1B9B833D00FD90CF /* ColorPalette.swift */,
+				494C275A1B9B74C500FD90CF /* CommunicationsManager.swift */,
+				494C27541B9B705A00FD90CF /* AccessCodeViewController.swift */,
+				494C27581B9B74B100FD90CF /* AudienceQuestionViewController.swift */,
+				494C27561B9B72EC00FD90CF /* NewQuestionViewController.swift */,
 				494C27381B9B6F7400FD90CF /* Main.storyboard */,
 				494C273B1B9B6F7400FD90CF /* Images.xcassets */,
 				494C273D1B9B6F7400FD90CF /* LaunchScreen.xib */,
@@ -112,6 +139,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		78535283ECB5A42557791533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C299522CB85162E887E2524C /* Pods.debug.xcconfig */,
+				B96B02E631ACFA82E4C939E0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 494C274E1B9B6F7400FD90CF /* Build configuration list for PBXNativeTarget "Pitch To Start Micro" */;
 			buildPhases = (
+				57D6281F62DFE548BC49E0A9 /* Check Pods Manifest.lock */,
 				494C272B1B9B6F7400FD90CF /* Sources */,
 				494C272C1B9B6F7400FD90CF /* Frameworks */,
 				494C272D1B9B6F7400FD90CF /* Resources */,
+				B859778C993626BBAAC64735 /* Embed Pods Frameworks */,
+				92456FD133F36A8FB8407A2A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +246,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57D6281F62DFE548BC49E0A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92456FD133F36A8FB8407A2A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B859778C993626BBAAC64735 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		494C272B1B9B6F7400FD90CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494C27371B9B6F7400FD90CF /* ViewController.swift in Sources */,
+				494C27591B9B74B100FD90CF /* AudienceQuestionViewController.swift in Sources */,
 				494C27351B9B6F7400FD90CF /* AppDelegate.swift in Sources */,
+				494C275B1B9B74C500FD90CF /* CommunicationsManager.swift in Sources */,
+				494C27571B9B72EC00FD90CF /* NewQuestionViewController.swift in Sources */,
+				494C27551B9B705A00FD90CF /* AccessCodeViewController.swift in Sources */,
+				494C275D1B9B833D00FD90CF /* ColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +431,7 @@
 		};
 		494C274F1B9B6F7400FD90CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C299522CB85162E887E2524C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pitch To Start Micro/Info.plist";
@@ -350,6 +442,7 @@
 		};
 		494C27501B9B6F7400FD90CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96B02E631ACFA82E4C939E0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pitch To Start Micro/Info.plist";
@@ -411,6 +504,7 @@
 				494C27501B9B6F7400FD90CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494C27511B9B6F7400FD90CF /* Build configuration list for PBXNativeTarget "Pitch To Start MicroTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +513,7 @@
 				494C27531B9B6F7400FD90CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
