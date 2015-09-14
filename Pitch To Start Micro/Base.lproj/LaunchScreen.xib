@@ -10,11 +10,19 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="QAL-aH-imO">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="QAL-aH-imO">
                     <rect key="frame" x="151" y="154" width="178" height="171"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="171" id="QZ7-Sa-rag"/>
+                        <constraint firstAttribute="width" constant="178" id="ycf-Ua-spL"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.94325506687164307" green="0.94325506687164307" blue="0.94325506687164307" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="QAL-aH-imO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="154" id="Bn6-dp-Pfi"/>
+                <constraint firstItem="QAL-aH-imO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xXy-rV-urz"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>
